@@ -1,6 +1,25 @@
 #include <stdio.h>
 
 int main() {
+    void print(void);
+    int square(int n);
 
+    int main() {
+    print();
+
+    int num = 5;
+    int result = square(num);
+    printf("%d %d\n", num, result);
+
+    return 0;
+}
+
+void print() {
+    printf("Welcome to Computer Programming 03 Lab!\n");
+}
+
+    int square(int n) {
+    return n * n;
+}
     return 0;
 }
