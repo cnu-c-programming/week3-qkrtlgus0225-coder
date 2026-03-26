@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int main() {
-    void print(void);
-    int square(int n);
+void print(void);
+int square(int n);
 
-    int main() {
+int main() {
     print();
 
     int num = 5;
@@ -20,6 +19,4 @@ void print() {
 
     int square(int n) {
     return n * n;
-}
-    return 0;
 }
