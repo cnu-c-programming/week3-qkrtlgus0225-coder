@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swap(int a, int b, int *q, int *r){
+void divide(int a, int b, int *q, int *r){
   *q = a / b;  
   *r = a % b;
 }
